@@ -64,7 +64,31 @@ The folder 2_DEMO_INTERFACE contains only a note because this project uses pure 
 
 Below are the commands used during the demo to validate the functional requirements.
 
--- INSERT QUERY FOR LIVE DEMO --
+STORED PROCEDURE:
+
+✔ Transaction Success Demonstration (FR3 – ACID)
+
+CALL SP_DisburseAssistance(7, 5, NOW(), 500.00);
+
+Shows successful INSERT + automatic UPDATE via trigger.
+
+✔ Transaction Failure (Rollback)
+
+CALL SP_DisburseAssistance(16, 3, NOW(), 500.00);
+
+Should show a custom error and rollback the entire transaction.
+
+TRIGGER:
+
+INPUT HERE
+
+VIEWS: 
+
+INPUT HERE
+
+DCL:
+
+INPUT HERE
 
 **5. Contributors**
 
