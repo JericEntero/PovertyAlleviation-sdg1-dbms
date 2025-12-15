@@ -80,7 +80,9 @@ Should show a custom error and rollback the entire transaction.
 
 TRIGGER:
 
-INPUT HERE
+✔ Trigger Demonstration (FR4 – Automation)
+
+SELECT TotalAidReceived FROM Beneficiary WHERE BeneficiaryID = 7;
 
 VIEWS: 
 
