@@ -1,0 +1,7 @@
+NOTE TO REVIEWER:
+
+The implementation of the project was done with pure SQL and with the entire implementation being done through the phpMyAdmin interface.
+
+Since this option does not need the creation of a Web or CLI application, there are no files of executable programs in the demo interface folder.
+
+All the setup instructions, instructions on how to execute the setup, and instructions on how to demonstrate everything (such as how to execute the stored procedure, how to trigger a test, and how to report the results) are contained in the main README.md at the root of the repository.
