@@ -84,7 +84,11 @@ INPUT HERE
 
 VIEWS: 
 
-INPUT HERE
+✔ Reporting View (FR5)
+
+SELECT * FROM V_ProgramSummary;
+
+SELECT * FROM V_TopBeneficiaries;
 
 DCL:
 
