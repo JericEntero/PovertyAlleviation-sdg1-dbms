@@ -1,0 +1,31 @@
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you use JS)
+node_modules/
+
+# Environment / config
+*.env
+.env.local
+.env.*
+
+# PHPStorm / VSCode config
+.idea/
+.vscode/
+
+# XAMPP / Localhost temp files
+xampp/
+tmp/
+cache/
+
+# Logs
+*.log
+
+# Backup SQL files (optional)
+*.sql~
+*.bak
+*.backup
+
+# Upload files (if your interface uses uploads)
+uploads/
