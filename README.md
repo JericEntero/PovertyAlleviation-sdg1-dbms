@@ -94,7 +94,11 @@ SELECT * FROM V_TopBeneficiaries;
 
 DCL:
 
-INPUT HERE
+✔ Security Test (FR6)
+
+Example: Revoking a privilege
+
+REVOKE EXECUTE ON PROCEDURE SP_DisburseAssistance FROM 'Data_Entry'@'localhost';
 
 **5. Contributors**
 
